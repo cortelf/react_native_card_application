@@ -11,7 +11,7 @@ export default class PostPage extends React.Component<PostType> {
         return (
             <View style={styles.rootContainer}>
                 <Post {...this.props}>
-                    <Comments />
+                    <Comments comments={this.props.comments} />
                 </Post>
             </View>
         )

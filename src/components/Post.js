@@ -364,7 +364,8 @@ const styles = StyleSheet.create({
         borderRadius: 300
     },
     children: {
-        marginTop: 40
+        marginTop: 40,
+        paddingBottom: 10
     }
 
 })

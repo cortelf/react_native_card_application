@@ -47,7 +47,22 @@ const post = {
     },
   ],
   comments: [
-
+    {
+      author: {
+        name: "Artifiqa",
+        photo: "https://html5css.ru/css/paris.jpg"
+      },
+      date: new Date(),
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla quam eu faci lisis mollis. "
+    },
+    {
+      author: {
+        name: "Artifiqa",
+        photo: "https://html5css.ru/css/paris.jpg"
+      },
+      date: new Date(),
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla quam eu faci lisis mollis. "
+    }
   ]
 };
 
