@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
         marginRight: 10,
     },
     tagText: {
-        fontFamily: "Futura Book",
+        fontFamily: "FuturaBookC",
         color: '#ffffff',
         fontSize: 14
     },
@@ -161,7 +161,7 @@ const styles = StyleSheet.create({
     },
     cardInformationHeaderItemTextBase: {
         marginLeft: 5,
-        fontFamily: "Futura Book",
+        fontFamily: "FuturaBookC",
         fontSize: 14
     },
     cardInformationHeaderItemTextOnline: {
@@ -171,7 +171,7 @@ const styles = StyleSheet.create({
         color: "#9BC2C9"
     },
     cardInformationTitleText: {
-        fontFamily: "Cera Pro Black",
+        fontFamily: "CeraPro-Black",
         fontSize: 16,
         color: '#434272',
 
@@ -197,7 +197,7 @@ const styles = StyleSheet.create({
         color: '#A161E0',
         fontSize: 14,
         fontWeight: '700',
-        fontFamily: "Futura Demi",
+        fontFamily: "FuturaDemiC",
         marginLeft: 5
     },
     cardButtons: {
@@ -211,7 +211,7 @@ const styles = StyleSheet.create({
         borderColor: '#AB453D'
     },
     cardButtonText: {
-        fontFamily: "Futura Book",
+        fontFamily: "FuturaBookC",
         color: '#ffffff',
         fontSize: 14
     }

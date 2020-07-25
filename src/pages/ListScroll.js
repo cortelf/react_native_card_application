@@ -40,6 +40,7 @@ const styles = StyleSheet.create({
     },
     backgroundContainer: {
         position: 'absolute',
+        zIndex: -90,
 
         height: Dimensions.get('window').height,
         width: Dimensions.get('window').width,

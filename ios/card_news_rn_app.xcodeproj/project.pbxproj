@@ -8,19 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* card_news_rn_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* card_news_rn_appTests.m */; };
+		0427912853D041CF88A1B8A3 /* CeraPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B402694A930448B69E578763 /* CeraPro-Regular.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1F7DA0DC263646989583EC7C /* FuturaBookC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06E4DD7DCE374E1DA020AF75 /* FuturaBookC.ttf */; };
+		200864CD2E30F673B8C10ECD /* libPods-card_news_rn_app-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CC5A1C61A48896702D3671 /* libPods-card_news_rn_app-tvOS.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* card_news_rn_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* card_news_rn_appTests.m */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		1F7DA0DC263646989583EC7C /* FuturaBookC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06E4DD7DCE374E1DA020AF75 /* FuturaBookC.ttf */; };
-		C3063BF3ED7E41C9965D1353 /* CeraPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44F0C2C143044A628DC51617 /* CeraPro-Bold.ttf */; };
 		5B65002CEC3F48689B90B5E7 /* CeraPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE51B5E05F074BD9B0D5737B /* CeraPro-Black.ttf */; };
 		62466D7FC6A0465AAFC104BB /* FuturaDemiC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA7CB005698A4588A206DF5B /* FuturaDemiC.ttf */; };
-		0427912853D041CF88A1B8A3 /* CeraPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B402694A930448B69E578763 /* CeraPro-Regular.ttf */; };
+		7307A173C0060E5E153C20EB /* libPods-card_news_rn_app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0288E622028FBDE4E304D1D /* libPods-card_news_rn_app.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		847A75CFFB487F68351D2406 /* libPods-card_news_rn_app-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1899A7CA08F2CFE58D8EC62 /* libPods-card_news_rn_app-tvOSTests.a */; };
+		91A2A4438ED394FFABC3CCFF /* libPods-card_news_rn_app-card_news_rn_appTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D90552FE4CC05DE4CD4403 /* libPods-card_news_rn_app-card_news_rn_appTests.a */; };
+		C3063BF3ED7E41C9965D1353 /* CeraPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44F0C2C143044A628DC51617 /* CeraPro-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,8 @@
 		00E356EE1AD99517003FC87E /* card_news_rn_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = card_news_rn_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* card_news_rn_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = card_news_rn_appTests.m; sourceTree = "<group>"; };
+		06E4DD7DCE374E1DA020AF75 /* FuturaBookC.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FuturaBookC.ttf; path = ../src/assets/fonts/FuturaBookC.ttf; sourceTree = "<group>"; };
+		08CC5A1C61A48896702D3671 /* libPods-card_news_rn_app-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-card_news_rn_app-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* card_news_rn_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = card_news_rn_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = card_news_rn_app/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = card_news_rn_app/AppDelegate.m; sourceTree = "<group>"; };
@@ -53,14 +59,24 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = card_news_rn_app/main.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* card_news_rn_app-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "card_news_rn_app-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* card_news_rn_app-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "card_news_rn_app-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44F0C2C143044A628DC51617 /* CeraPro-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CeraPro-Bold.ttf"; path = "../src/assets/fonts/CeraPro-Bold.ttf"; sourceTree = "<group>"; };
+		517F0CE1649FB838E2AD3EE1 /* Pods-card_news_rn_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card_news_rn_app.debug.xcconfig"; path = "Target Support Files/Pods-card_news_rn_app/Pods-card_news_rn_app.debug.xcconfig"; sourceTree = "<group>"; };
+		54D90552FE4CC05DE4CD4403 /* libPods-card_news_rn_app-card_news_rn_appTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-card_news_rn_app-card_news_rn_appTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CB8C649B7789CC844AA96A /* Pods-card_news_rn_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card_news_rn_app.release.xcconfig"; path = "Target Support Files/Pods-card_news_rn_app/Pods-card_news_rn_app.release.xcconfig"; sourceTree = "<group>"; };
+		7679D9561E3D6113AC2EB9C4 /* Pods-card_news_rn_app-card_news_rn_appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card_news_rn_app-card_news_rn_appTests.debug.xcconfig"; path = "Target Support Files/Pods-card_news_rn_app-card_news_rn_appTests/Pods-card_news_rn_app-card_news_rn_appTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = card_news_rn_app/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		865B7468B58006E212762083 /* Pods-card_news_rn_app-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card_news_rn_app-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-card_news_rn_app-tvOSTests/Pods-card_news_rn_app-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1C5D34B37D3FA64A1189709 /* Pods-card_news_rn_app-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card_news_rn_app-tvOS.release.xcconfig"; path = "Target Support Files/Pods-card_news_rn_app-tvOS/Pods-card_news_rn_app-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		B402694A930448B69E578763 /* CeraPro-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CeraPro-Regular.ttf"; path = "../src/assets/fonts/CeraPro-Regular.ttf"; sourceTree = "<group>"; };
+		C0288E622028FBDE4E304D1D /* libPods-card_news_rn_app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-card_news_rn_app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C346188712521F07E1866ABE /* Pods-card_news_rn_app-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card_news_rn_app-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-card_news_rn_app-tvOS/Pods-card_news_rn_app-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CA7CB005698A4588A206DF5B /* FuturaDemiC.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FuturaDemiC.ttf; path = ../src/assets/fonts/FuturaDemiC.ttf; sourceTree = "<group>"; };
+		CE51B5E05F074BD9B0D5737B /* CeraPro-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CeraPro-Black.ttf"; path = "../src/assets/fonts/CeraPro-Black.ttf"; sourceTree = "<group>"; };
+		D1899A7CA08F2CFE58D8EC62 /* libPods-card_news_rn_app-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-card_news_rn_app-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		06E4DD7DCE374E1DA020AF75 /* FuturaBookC.ttf */ = {isa = PBXFileReference; name = "FuturaBookC.ttf"; path = "../src/assets/fonts/FuturaBookC.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		44F0C2C143044A628DC51617 /* CeraPro-Bold.ttf */ = {isa = PBXFileReference; name = "CeraPro-Bold.ttf"; path = "../src/assets/fonts/CeraPro-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CE51B5E05F074BD9B0D5737B /* CeraPro-Black.ttf */ = {isa = PBXFileReference; name = "CeraPro-Black.ttf"; path = "../src/assets/fonts/CeraPro-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CA7CB005698A4588A206DF5B /* FuturaDemiC.ttf */ = {isa = PBXFileReference; name = "FuturaDemiC.ttf"; path = "../src/assets/fonts/FuturaDemiC.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B402694A930448B69E578763 /* CeraPro-Regular.ttf */ = {isa = PBXFileReference; name = "CeraPro-Regular.ttf"; path = "../src/assets/fonts/CeraPro-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F190430BA14761FAE94B4D33 /* Pods-card_news_rn_app-card_news_rn_appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card_news_rn_app-card_news_rn_appTests.release.xcconfig"; path = "Target Support Files/Pods-card_news_rn_app-card_news_rn_appTests/Pods-card_news_rn_app-card_news_rn_appTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE54FBBE4D4F3B3B71747BCD /* Pods-card_news_rn_app-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-card_news_rn_app-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-card_news_rn_app-tvOSTests/Pods-card_news_rn_app-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91A2A4438ED394FFABC3CCFF /* libPods-card_news_rn_app-card_news_rn_appTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7307A173C0060E5E153C20EB /* libPods-card_news_rn_app.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				200864CD2E30F673B8C10ECD /* libPods-card_news_rn_app-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847A75CFFB487F68351D2406 /* libPods-card_news_rn_app-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +151,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				C0288E622028FBDE4E304D1D /* libPods-card_news_rn_app.a */,
+				54D90552FE4CC05DE4CD4403 /* libPods-card_news_rn_app-card_news_rn_appTests.a */,
+				08CC5A1C61A48896702D3671 /* libPods-card_news_rn_app-tvOS.a */,
+				D1899A7CA08F2CFE58D8EC62 /* libPods-card_news_rn_app-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,6 +175,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E720DA1141BA4704B588CDEC /* Resources */,
+				DF12DB2C520158F165337F71 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -168,8 +193,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		DF12DB2C520158F165337F71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				517F0CE1649FB838E2AD3EE1 /* Pods-card_news_rn_app.debug.xcconfig */,
+				55CB8C649B7789CC844AA96A /* Pods-card_news_rn_app.release.xcconfig */,
+				7679D9561E3D6113AC2EB9C4 /* Pods-card_news_rn_app-card_news_rn_appTests.debug.xcconfig */,
+				F190430BA14761FAE94B4D33 /* Pods-card_news_rn_app-card_news_rn_appTests.release.xcconfig */,
+				C346188712521F07E1866ABE /* Pods-card_news_rn_app-tvOS.debug.xcconfig */,
+				A1C5D34B37D3FA64A1189709 /* Pods-card_news_rn_app-tvOS.release.xcconfig */,
+				865B7468B58006E212762083 /* Pods-card_news_rn_app-tvOSTests.debug.xcconfig */,
+				FE54FBBE4D4F3B3B71747BCD /* Pods-card_news_rn_app-tvOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E720DA1141BA4704B588CDEC /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				06E4DD7DCE374E1DA020AF75 /* FuturaBookC.ttf */,
 				44F0C2C143044A628DC51617 /* CeraPro-Bold.ttf */,
@@ -178,8 +219,8 @@
 				B402694A930448B69E578763 /* CeraPro-Regular.ttf */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
 			path = "";
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -188,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "card_news_rn_appTests" */;
 			buildPhases = (
+				EF59210EDC004CC983AE4EA9 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				67155B06AE06C8E24F61CB92 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,11 +249,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "card_news_rn_app" */;
 			buildPhases = (
+				6AA10407CF740A0367E6881A /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				1CA1B74CB2EDF7132CC28BEC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,6 +270,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "card_news_rn_app-tvOS" */;
 			buildPhases = (
+				EA6532A20F00FAE891EA1167 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -244,6 +290,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "card_news_rn_app-tvOSTests" */;
 			buildPhases = (
+				44C693BF8BFA008C1F5C54F0 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -359,6 +406,24 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		1CA1B74CB2EDF7132CC28BEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-card_news_rn_app/Pods-card_news_rn_app-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-card_news_rn_app/Pods-card_news_rn_app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -372,6 +437,112 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		44C693BF8BFA008C1F5C54F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-card_news_rn_app-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67155B06AE06C8E24F61CB92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-card_news_rn_app-card_news_rn_appTests/Pods-card_news_rn_app-card_news_rn_appTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-card_news_rn_app-card_news_rn_appTests/Pods-card_news_rn_app-card_news_rn_appTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AA10407CF740A0367E6881A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-card_news_rn_app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA6532A20F00FAE891EA1167 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-card_news_rn_app-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF59210EDC004CC983AE4EA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-card_news_rn_app-card_news_rn_appTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -466,6 +637,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7679D9561E3D6113AC2EB9C4 /* Pods-card_news_rn_app-card_news_rn_appTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -488,6 +660,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F190430BA14761FAE94B4D33 /* Pods-card_news_rn_app-card_news_rn_appTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -507,6 +680,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517F0CE1649FB838E2AD3EE1 /* Pods-card_news_rn_app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -529,6 +703,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55CB8C649B7789CC844AA96A /* Pods-card_news_rn_app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -549,6 +724,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C346188712521F07E1866ABE /* Pods-card_news_rn_app-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -576,6 +752,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C5D34B37D3FA64A1189709 /* Pods-card_news_rn_app-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -603,6 +780,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 865B7468B58006E212762083 /* Pods-card_news_rn_app-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -629,6 +807,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE54FBBE4D4F3B3B71747BCD /* Pods-card_news_rn_app-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

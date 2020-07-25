@@ -43,7 +43,7 @@ export default class Comments extends React.Component<CommentsProps> {
 
 const styles = StyleSheet.create({
     titleText: {
-        fontFamily: "Futura Demi",
+        fontFamily: "FuturaDemiC",
         color: '#434272',
         fontSize: 24,
     },
@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
         width: 32
     },
     commentInput: {
-        fontFamily: "Futura Demi",
+        fontFamily: "FuturaDemiC",
         color: '#434272',
         fontSize: 14,
         padding:  0,
@@ -91,17 +91,17 @@ const styles = StyleSheet.create({
         justifyContent: 'flex-end'
     },
     commentAuthorNameText: {
-        fontFamily: "Cera Pro Bold",
+        fontFamily: "CeraPro-Bold",
         fontSize: 14,
         color: '#434272',
     },
     commentAuthorDateText: {
-        fontFamily: "Cera Pro Regular",
+        fontFamily: "CeraPro-Regular",
         fontSize: 12,
         color: '#8DABAD',
     },
     commentText: {
-        fontFamily: "Futura Book",
+        fontFamily: "FuturaBookC",
         color: '#434272',
         fontSize: 16,
 

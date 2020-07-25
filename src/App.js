@@ -12,6 +12,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import HomePage from  "./pages/HomePage"
 import ScrollList from './pages/ListScroll'
 import PostPage from './pages/PostPage'
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 const Stack = createStackNavigator();
 
@@ -68,6 +69,7 @@ const post = {
 
 function App() {
   return (
+    // <SafeAreaProvider>
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="Home" component={HomePage} />
@@ -75,7 +77,7 @@ function App() {
           name="ScrollList" 
           options={{headerShown: false}}
         >
-          {props => <ScrollList {...props} posts={[]} />}
+          {props => <ScrollList {...props} posts={[post]} />}
         </Stack.Screen>
 
         <Stack.Screen 
@@ -87,6 +89,7 @@ function App() {
         {/* <Stack.Screen name="Details" component={DetailsScreen} /> */}
       </Stack.Navigator>
     </NavigationContainer>
+    // </SafeAreaProvider>
   );
 }
 

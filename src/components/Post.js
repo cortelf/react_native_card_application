@@ -7,7 +7,8 @@ import {
     TouchableOpacity,
     TouchableWithoutFeedback,
     Image,
-    Dimensions
+    Dimensions,
+    SafeAreaView
 } from 'react-native';
 import {Post as PostType} from '../types';
 import PeopleIcon from '../assets/icons/PeopleGray';
@@ -60,6 +61,7 @@ export default class Post extends React.Component<PostType> {
     render() {
         return (
             <>
+            {/* <SafeAreaView> */}
                 <ScrollView style={styles.mainScroller}>
                     <View style={styles.tagContainer}>
                         {this.props.keywords.map((word, index) =>
@@ -123,6 +125,7 @@ export default class Post extends React.Component<PostType> {
                         {this.props.children}
                     </View>
                 </ScrollView>
+                {/* </SafeAreaView> */}
                 <View style={styles.bottomBarContainer}>
                     <TouchableOpacity style={styles.bottomBarLeftContainer} onPress={this.props.onFriendCallTap}>
                         <View style={styles.bottomBarAvatarContainer}>
@@ -160,7 +163,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'rgba(74, 137, 145, 0.15)'
     },
     tagText: {
-        fontFamily: "Futura Book",
+        fontFamily: "FuturaBookC",
         color: '#434272',
         fontSize: 14
     },
@@ -169,7 +172,7 @@ const styles = StyleSheet.create({
         paddingBottom: 20
     },
     titleText: {
-        fontFamily: "Cera Pro Black",
+        fontFamily: "CeraPro-Black",
         fontSize: 32,
         color: '#434272',
 
@@ -193,14 +196,14 @@ const styles = StyleSheet.create({
         marginLeft: 5
     },
     iconText: {
-        fontFamily: "Futura Book",
+        fontFamily: "FuturaBookC",
         color: '#9BC2C9',
         fontSize: 14,
 
         marginLeft: 5
     },
     iconTextOnlineText: {
-        fontFamily: "Futura Book",
+        fontFamily: "FuturaBookC",
         color: '#44B01E',
         fontSize: 14,
     },
@@ -216,12 +219,12 @@ const styles = StyleSheet.create({
         flexWrap: 'wrap',
     },
     postBodyText: {
-        fontFamily: "Futura Book",
+        fontFamily: "FuturaBookC",
         color: '#434272',
         fontSize: 18,
     },
     expandText: {
-        fontFamily: "Futura Book",
+        fontFamily: "FuturaBookC",
         color: '#4F959E',
         fontSize: 18,
         textAlign: 'justify'
@@ -248,12 +251,12 @@ const styles = StyleSheet.create({
         justifyContent: 'flex-end'
     },
     authorPositionText: {
-        fontFamily: "Futura Book",
+        fontFamily: "FuturaBookC",
         color: '#9BC2C9',
         fontSize: 14,
     },
     authorNameText: {
-        fontFamily: "Futura Book",
+        fontFamily: "FuturaBookC",
         color: '#AB453D',
         fontSize: 16,
 
@@ -266,19 +269,22 @@ const styles = StyleSheet.create({
         justifyContent: 'flex-end',
         borderRadius: 25,
         flexDirection: 'row',
+        alignItems: 'center'
     },
     shareButtonText: {
-        fontFamily: "Futura Book",
+        fontFamily: "FuturaBookC",
         color: '#9BC2C9',
         fontSize: 14,
         marginRight: 10,
 
-        marginTop: 2
+        marginTop: 2,
+        
     },
     bottomBarContainer: {
         backgroundColor: '#EB674B',
         
         flexDirection: 'row',
+        
     },
     bottomBarLeftContainer: {
         borderRightColor: '#AB453D',
@@ -305,7 +311,7 @@ const styles = StyleSheet.create({
     },
     bottomBarLeftText: {
         marginLeft: 5,
-        fontFamily: "Futura Book",
+        fontFamily: "FuturaBookC",
         color: '#ffffff',
         fontSize: 14,
     },
@@ -336,7 +342,7 @@ const styles = StyleSheet.create({
     },
     bottomBarRightText: {
         marginRight: 5,
-        fontFamily: "Futura Book",
+        fontFamily: "FuturaBookC",
         color: '#ffffff',
         fontSize: 14,
     },
